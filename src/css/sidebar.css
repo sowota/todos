@@ -1,0 +1,105 @@
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 4.5rem;
+}
+
+.logo__logo{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo__name{
+    letter-spacing: 3px;
+}
+
+.sidebar__labels{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar__title{
+    font-size: 1.5rem;
+}
+
+.sidebar__addBtn{
+    color: #eff2f3; 
+    font-size: 1.1rem
+}
+
+.sidebar__addBtn:hover{
+    color: #dedfdf;
+}
+
+.sidebar__form, .sidebar__addBtn{
+    display: flex;
+    align-items: center;
+}
+.sidebar__form{
+    margin-bottom: .5rem;
+    background-color:  #00A82D;
+    padding: .8rem;
+    border-radius: 30px;
+}
+
+.sidebar__form:hover{
+    background-color: #019127;
+}
+
+.sidebar__input{
+    background-color:transparent ;
+    border-radius: .6rem;
+    padding: .8rem .5rem;
+    width: 95%;
+    font-size: 1.1rem;
+    color: #eff2f3;
+   
+}
+
+.sidebar__input::placeholder{
+        color:#eff2f3;
+        letter-spacing: .1rem;
+}
+.sidebar__input:focus::placeholder{
+    color:#eff2f388;
+}
+
+.label__items{
+    margin: 1rem 0;
+    height: 63%;
+    overflow: hidden;
+}
+.label__items::-webkit-scrollbar{
+    width: .5rem;
+}
+
+.label__items::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.label__items::-webkit-scrollbar-thumb{
+    background-color: #d7dcdd;
+    border-radius: 100vw;
+}
+
+.label__items:hover{
+    overflow-y: scroll;
+}
+
+.sidebar__toggle{
+    display:flex;
+    flex-grow: 1;
+    align-items: end;
+}
+
+.dark2{
+    color: #d7dcdd;
+}
+
+.dark3{
+    color: #aeb6b8;
+}

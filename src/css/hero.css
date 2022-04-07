@@ -1,0 +1,34 @@
+.hero{
+    width: 100%;
+    height: 30vh; 
+    background-size: 55%;
+    background-position: center top -4rem;
+    background-color: #3b4446;
+    background-blend-mode: overlay;
+    
+}
+
+.hero__text{
+    color: #eff2f3;
+    padding: 2vw;
+}
+
+.hero__greeting{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.hero__menu{
+    display: none;
+}
+
+@media(max-width:850px){
+    .hero__menu{
+        display: inline-block;
+        padding: 2vw;
+        cursor: pointer;
+    }
+
+
+}
+
